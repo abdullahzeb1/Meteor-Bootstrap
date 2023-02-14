@@ -1,111 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Creative Meteor</title>
-    <!-- Required meta tags -->
+    <title>Bootstrap Example</title>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="index.css" type="text/css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong"
     />
-
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
   </head>
+
   <body>
     <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <div
-          class="col-12"
-          style="
-            height: 450px;
-            background-image: url(Pickes/background\ img.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-          "
+      <div
+        class="col-12"
+        style="
+          height: 450px;
+          background-image: url(Pickes/background\ img.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+        "
+      >
+        <nav
+          class="navbar navbar-inverse"
+          style="background-color: transparent !important"
         >
-          <div class="row">
-            <div class="col-6">
-              <li class="navbar-logo text-center">Meteor</li>
-            </div>
-            <div class="col-6">
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarNav"
-                aria-controls="navbarNav"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse mt-3" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">HOME</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">ABOUT US</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">PORTFOLIO</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">BLOG</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">CONTECT US</a>
-                  </li>
-                </ul>
-            </div>
-          </div>
-        </div>
-
+          <div class="container-fluid">
+              <!-- <div class="row" style="border:4px solid rgb(244, 70, 70)"> -->
+                  <div
+                    class="col-sm-5 text-center nav-head"
+                  >
+                      <span class="text-center""
+                          >Meteor</span
+                      >
+                      <button
+                          type="button"
+                          class="navbar-toggle"
+                          data-toggle="collapse"
+                          data-target="#myNavbar"
+                      >
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                      </button>
+                  </div>
+                  <div class="col-sm-7 text-left open-at-z-index">
+                      <div class="collapse navbar-collapse mt-3" id="myNavbar">
+                          <ul class="nav navbar-nav text-left">
+                              <li><a href="#"> Home</a></li>
+                              <li><a href="#"> About Us</a></li>
+                              <li><a href="#"> Portfolio</a></li>
+                              <li><a href="#"> Contact Us</a></li>
+                              <li><a href="#"> Blog</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          <!-- </div> -->
+        </nav>
         <div class="row">
-          <div class="col" style="height: 450px; color: white">
-            <div class="text-center mt-5">
+          <div class="col mt-3" style="height: 450px; color: white ">
+            <div class="text-center mt-3">
               <h6 class="fs-6">INTRODUCTION OF</h6>
               <h1 class="fs-1">CREATIVE MEREOR</h1>
-              <p class="peara mt-3">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                 Unde dolorum eum perferendis. Eligendi, perspiciatis fugiat?
+              <p class="container peara mt-3 text-center">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque similique odio, 
+                ipsam ad quaerat necessitatibus labore sequi expedita architecto quod.
               </p>
-              <button type="button" class="btn btn-success">
+              <button
+                type="button"
+                class="btn btn-success"
+                style="border-radius: 50px"
+              >
                 DISCOVER MORE
               </button>
             </div>
           </div>
         </div>
-      </nav>
+      </div>
+      <div class="mt-5">
+      <div  class="container mt-5   ">
+        <div class="services-text-row row text-center  " style="text-decoration: underline;">
+            <h3 class="mt-5">WHAT WE DO</h3>
+        </div>
+        <div class="services-boxes-row row text-center mt-5  " >
+          <div class="col-12 col-sm-6 col-lg-3 services-col">
+            <div class="service-col-iccon" style="box-shadow: 2px 2px 10px rgba(134, 134, 134, 0.5);">
+              <h3 class="display-4">Easy Customizations</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae repellendus 
+                voluptate ad voluptates id dolorum reiciendis odit.</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3 services-col">
+            <div class="service-col-iccon" style="box-shadow: 2px 2px 10px rgba(134, 134, 134, 0.5);">
+              <h3 class="display-4">Creative Ideas</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae repellendus 
+                voluptate ad voluptates id dolorum reiciendis odit.</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3 services-col">
+            <div class="service-col-iccon" style="box-shadow: 2px 2px 10px rgba(134, 134, 134, 0.5);">
+              <h3 class="display-4">Good Profit</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae repellendus 
+                voluptate ad voluptates id dolorum reiciendis odit.</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3 services-col">
+            <div class="service-col-iccon"style="box-shadow: 2px 2px 10px rgba(134, 134, 134, 0.5);">
+              <h3 class="display-4">Open To Pubkic</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae repellendus 
+                voluptate ad voluptates id dolorum reiciendis odit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="container-fluid mt-5" id="container1">
+        <div class="row">
+          <div class="container">
+          <div class="col-md-1"></div>
+
+          <div class="col-md-5" style=" color: white;">
+            <h2 class="display-1 text-uppercase fw-bold">Now offers just arrived,
+              Get it now and take profit</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil
+                voluptatibus laborum quas quidem repudiandae, animi, voluptatem
+                blanditiis expedita quae, veniam voluptates cumque veritatis
+                consectetur. Eaque aut tenetur debitis nemo porro?
+              </p>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil
+                voluptatibus laborum quas quidem repudiandae, animi, voluptatem
+                blanditiis expedita quae, veniam voluptates cumque veritatis
+                consectetur. Eaque aut tenetur debitis nemo porro?
+              </p>
+ 
+              <button type="button" class="btn btn-light" style="color: black;">DISCOVER MORE</button>
+              <button type="button" class="btn btn-success" >PURCHASE NOW</button>
+          </div>
+          <div class="col-md-6">
+            <div id="mainBox">
+              <div id="box">A</div>
+              <div id="box-1">B</div>
+              <div id="box-2">C</div>
+            </div>
+          </div>
+
+        </div>
+        </div>
+
+        <div class="container">
+          <h2 class="text-center">OUR PORTFOLIO</h2>
+          <div class="text-center">
+            <a class="mr-5" href="#">All</a>
+            <a class="mr-5" href="#">Natural</a>
+            <a class="mr-5" href="#">Workspace</a>
+            <a class="mr-5" href="#">Technology</a>
+          </div>
+
+          <div class="row" style="height: 180px;">
+            <div class="col-md-2">
+              <div class="col" style="height: 150px;"></div>
+            </div>
+            <div class="col-md-2">
+              <div class="col" style="border: 2px solid black; height: 150px;">
+                <img src="https://picsum.photos/162/147" alt="">
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="col" style="border: 2px solid black; height: 150px;">
+                <img src="https://picsum.photos/162/147" alt="">
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="col" style="border: 2px solid black; height: 150px;">
+                <img src="https://picsum.photos/162/147" alt="">
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="col" style="border: 2px solid black; height: 150px;">
+                <img src="https://picsum.photos/162/147" alt="">
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="col" style="height: 150px;"></div>
+            </div>
+          </div>  
+          <div class="row" style="height: 150px;">
+            <div class="col-md-2">
+              <div class="col" style="height: 150px;"></div>
+            </div>
+            <div class="col-md-2">
+              <div class="col" style="border: 2px solid black; height: 150px;">
+                <img src="https://picsum.photos/162/147" alt="">
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="col" style="border: 2px solid black; height: 150px;">
+                <img src="https://picsum.photos/162/147" alt="">
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="col" style="border: 2px solid black; height: 150px;">
+                <img src="https://picsum.photos/162/147" alt="">
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="col" style="border: 2px solid black; height: 150px;">
+                <img src="https://picsum.photos/162/147" alt="">
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="col" style="height: 150px;"></div>
+             </div>
+          </div>
+        </div>
+        <div class="row" style="height: 450px; background-color: rgb(220, 250, 85);">
+          <h2 class="text-center">OUR BLOG POSTS</h2>
+          <div class="container">
+            <div class="col-md-6 mt-3" style="height:350px; border:2px solid black">
+              <div class="col"style="height:340px; border:2px solid red">
+                <img src="https://picsum.photos/500/350" alt="">
+              </div>
+            </div>
+            <div class="col-md-6" style="height:350px; border:2px solid black">
+            <div class="col"style="height:170px; border:2px solid red"></div>
+            <div class="col"style="height:172px; border:2px solid gray"></div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
+
   </body>
 </html>
